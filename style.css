@@ -1,0 +1,81 @@
+h1 {
+  text-align: center;
+  font-size: 29px;
+}
+body {
+  background-image: url(./img/background3.jpg);
+  background-size: cover;
+}
+.tieude {
+  color: rgb(1, 1, 36);
+}
+p.noidung {
+  font-size: 18px;
+  background-color: rgb(243, 243, 150);
+}
+.bang1 {
+  max-width: 100%;
+  margin: auto;
+  background-color: wheat;
+}
+td.bang,
+th.bang {
+  border: 1px solid black;
+  text-align: center;
+  height: 30px;
+}
+thead {
+  background-color: rgb(61, 38, 8);
+  color: aliceblue;
+}
+.hang1 {
+  background-color: rgb(241, 183, 112);
+}
+img.nhomtruong {
+  box-shadow: 4px 10px 5px rgb(221, 124, 124);
+  border: 3px solid black;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+p.caption {
+  text-align: center;
+}
+img.anhtv {
+  box-shadow: 4px 10px 5px rgb(36, 123, 129);
+  border: 3px solid black;
+  width: 150px;
+  border-radius: 50%;
+  display: inline;
+}
+table.anh {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+td.ten {
+  text-align: center;
+}
+a.c {
+  text-decoration: none;
+  color: black;
+}
+a.c:hover {
+  color: red;
+}
+img.logo {
+  text-align: left;
+  width: 170%;
+}
+td.logo1 {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+img.anhtv:hover {
+  content: url(./img/logo.png);
+  width: 150px;
+  height: 100px;
+}
