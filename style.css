@@ -38,9 +38,9 @@ img.nhomtruong {
   border-radius: 50%;
   margin: auto;
   display: flex;
+  object-fit: cover;
 }
-p.caption {
-  text-align: center;
+
 }
 div.anhtv {
   display: flex;
@@ -50,17 +50,24 @@ img.anhtv {
   box-shadow: 4px 10px 5px rgb(36, 123, 129);
   border: 3px solid black;
   width: 150px;
+  height: 165px;
   border-radius: 50%;
   display: inline;
   margin: auto;
+  object-fit: cover;
 }
-table.anh {
-  width: 100%;
+.nameimg {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.anhtv0 {
   margin: auto;
   text-align: center;
 }
-td.ten {
-  text-align: center;
+div.anhtv {
+  display: inline-block;
+  margin: 30px;
+  vertical-align: top;
 }
 a.c {
   text-decoration: none;
@@ -81,7 +88,6 @@ td.logo1 {
 
 img.anhtv:hover,
 img.nhomtruong:hover {
+  object-fit: cover;
   content: url(./img/logo.png);
-  width: 190px;
-  height: 150px;
 }
